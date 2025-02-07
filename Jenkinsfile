@@ -48,7 +48,9 @@ pipeline{
          }
        }
      }
-     stage('buildtest'){
+   }
+}
+    /* stage('buildtest'){
        steps{
          dir('test'){
            sh 'mvn clean install'
@@ -57,7 +59,7 @@ pipeline{
          }
        }
      }
-   }
+   } */
    
   post{
     success{

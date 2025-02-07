@@ -45,6 +45,7 @@ pipeline{
        steps{
          dir('Test'){
            sh 'mvn clean install'
+         }
        }
      }
      stage('buildtest'){

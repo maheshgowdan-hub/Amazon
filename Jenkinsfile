@@ -49,7 +49,6 @@ pipeline{
        }
      }
    }
-}
     /* stage('buildtest'){
        steps{
          dir('test'){
@@ -69,6 +68,7 @@ pipeline{
       echo "build Failed"
     }
   }
+}
 
       
 
